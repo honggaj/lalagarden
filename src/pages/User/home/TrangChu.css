@@ -1,0 +1,103 @@
+.trang-chu {
+    display: flex;
+    flex-direction: column; /* Sắp xếp theo chiều dọc */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .banner {
+    background-color: #e0f7fa;
+    text-align: center;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column; /* Sắp xếp nội dung theo chiều dọc */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    flex: 1; /* Cho phép chiếm không gian còn lại */
+  }
+  
+  .thu-hut {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .items {
+    display: flex;
+    justify-content: center; /* Căn giữa các item */
+    flex-wrap: wrap; /* Cho phép phần tử tràn dòng khi không đủ chỗ */
+  }
+  
+  .item {
+    width: 30%; /* Chiếm 30% chiều rộng của mỗi item */
+    margin: 10px;
+  }
+  
+  .item img {
+    width: 100%;
+    height: auto; /* Đảm bảo hình ảnh hiển thị đúng tỉ lệ */
+    border-radius: 8px; /* Bo góc hình ảnh */
+  }
+  
+  .item p {
+    font-weight: bold;
+    color: #333; /* Màu chữ */
+    margin-top: 10px;
+  }
+  
+  .product-section {
+    background-color: #ece1e1; /* Màu xám nền */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: center; /* Căn giữa các sản phẩm */
+    gap: 20px; /* Khoảng cách giữa các sản phẩm */
+    flex-wrap: wrap; /* Cho phép các sản phẩm nằm trên nhiều hàng */
+  }
+  
+  .product-item {
+    width: 200px; /* Chiều rộng mỗi sản phẩm */
+    border: 1px solid #d6d0d0; /* Đường viền cho sản phẩm */
+    padding: 10px;
+    border-radius: 8px; /* Bo góc cho sản phẩm */
+    background-color: white; /* Màu nền trắng cho sản phẩm */
+  }
+  
+  .product-item img {
+    width: 100px; /* Hình ảnh chiếm 100% chiều rộng */
+    height: 150px; /* Đảm bảo hình ảnh hiển thị đúng tỉ lệ */
+    border-radius: 8px; /* Bo góc hình ảnh */
+  }
+  
+  .product-item h3 {
+    margin: 10px 0; /* Khoảng cách cho tiêu đề sản phẩm */
+  }
+  
+  .product-item p {
+    font-weight: bold; /* Đậm giá sản phẩm */
+    color: #333; /* Màu chữ */
+  }
+  
+  .bb {
+    display: flex; /* Thay đổi cách hiển thị để căn giữa */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .bb i {
+    color: green; /* Màu của biểu tượng lá cây */
+    font-size: 24px; /* Kích thước biểu tượng */
+    margin: 0 10px; /* Khoảng cách giữa biểu tượng và tiêu đề */
+  }
+  
+  footer {
+    background-color: #e0f7fa;
+    text-align: center;
+    padding: 20px;
+  }
+  

@@ -1,0 +1,64 @@
+.quan-ly-cay-content {
+    margin-left: 250px; /* Đảm bảo khoảng cách với LeftBar */
+    text-align: center;
+    
+     width: calc(100% - 250px); /* Chiều rộng nội dung */
+
+  }
+  
+  
+  .form-container {
+    margin-bottom: 20px;
+  display: block;
+    align-items: center; /* Căn giữa theo chiều dọc */
+  }
+  
+  .form-container input {
+    margin-bottom: 10px; /* Khoảng cách giữa các ô input */
+  }
+  
+  
+  .form-container button {
+    padding: 10px 15px; /* Padding cho nút */
+    background-color: #28a745; /* Màu nền xanh */
+    color: white; /* Màu chữ trắng */
+    border: none; /* Bỏ viền */
+    border-radius: 5px; /* Bo tròn góc cho nút */
+    cursor: pointer; /* Đổi con trỏ thành bàn tay khi hover */
+  }
+  
+  .form-container button:hover {
+    background-color: #218838; /* Màu nền khi hover */
+  }
+  
+  .error-message {
+    color: red; /* Màu đỏ cho thông báo lỗi */
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 80%; /* Chiều rộng của bảng */
+   
+    margin: 20px auto; /* Khoảng cách trên dưới và căn giữa */
+  }
+  
+  table th, table td {
+   
+    padding: 10px; /* Khoảng cách trong các ô */
+    text-align: center; /* Căn trái nội dung trong ô */
+  }
+  
+  table th {
+    background-color: #4d7a6e; /* Màu nền cho tiêu đề bảng */
+    color: #f4f4f4;
+  }
+  
+  table img {
+    width: 50px; /* Chiều rộng ảnh */
+    height: 50px; /* Chiều cao ảnh */
+    border-radius: 5px; /* Bo tròn góc cho ảnh */
+  }
+  .action-button {
+    margin-left: 10px; /* Khoảng cách giữa các nút */
+  }
+  

@@ -1,0 +1,42 @@
+.giohang {
+    background-color: grey; /* Màu nền cho toàn bộ giỏ hàng */
+    padding: 20px; /* Thêm padding xung quanh giỏ hàng */
+  }
+  
+  .gio-hang {
+    width: 80%;
+    padding-top: 20px; /* Điều chỉnh khoảng cách phía trên */
+    margin: auto; /* Căn giữa giỏ hàng */
+    background-color: white; /* Nền trắng cho giỏ hàng để dễ nhìn */
+    border-radius: 8px; /* Bo tròn các góc */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Nền màu cho tiêu đề bảng */
+  }
+  
+  .product-image {
+    width: 50px; /* Điều chỉnh kích thước hình ảnh */
+    height: auto;
+  }
+  
+  .delete-icon {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  

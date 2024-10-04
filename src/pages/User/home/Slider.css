@@ -1,0 +1,12 @@
+/* Slider.css */
+.overlay {
+    position: absolute;
+    top: 50%; /* Căn giữa theo chiều dọc */
+    left: 50%; /* Căn giữa theo chiều ngang */
+    transform: translate(-50%, -50%); /* Căn giữa chính xác */
+    color: white; /* Màu chữ */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Đổ bóng cho chữ */
+    font-size: 24px; /* Kích thước chữ */
+    text-align: center; /* Căn giữa chữ */
+  }
+  

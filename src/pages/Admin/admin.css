@@ -1,0 +1,7 @@
+.admin-content {
+    margin-left: 250px; /* Đảm bảo khoảng cách với LeftBar */
+   text-align: center;
+   
+    width: calc(100% - 250px); /* Chiều rộng nội dung */
+  }
+  

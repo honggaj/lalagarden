@@ -1,0 +1,58 @@
+.lienhe-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 70%; /* Giới hạn chiều rộng */
+    margin: auto; /* Canh giữa */
+    background-color: #78aa8d;
+    border-radius: 10px;
+    border: 2px solid rgb(162, 181, 16);
+  }
+  
+  h1 {
+    color: #ffffff; /* Màu xanh lá */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .lienhe-info {
+    background-color: #f9f9f9; /* Nền nhạt cho thông tin */
+    padding: 15px;
+    border-radius: 8px; /* Bo tròn góc */
+    margin-bottom: 20px;
+  }
+  
+  .lienhe-form {
+    background-color: #f9f9f9; /* Nền nhạt cho biểu mẫu */
+    padding: 15px;
+    border-radius: 8px; /* Bo tròn góc */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block; /* Chia dòng cho label */
+    margin-bottom: 5px; /* Khoảng cách dưới label */
+  }
+  
+  input, textarea {
+    width: 100%; /* Đầy chiều rộng */
+    padding: 10px;
+    border: 1px solid #ccc; /* Đường viền nhẹ */
+    border-radius: 4px; /* Bo tròn góc */
+  }
+  
+  button {
+    background-color: #27ae60; /* Màu nền nút */
+    color: white; /* Màu chữ nút */
+    padding: 10px 15px;
+    border: none; /* Bỏ đường viền */
+    border-radius: 4px; /* Bo tròn góc */
+    cursor: pointer; /* Con trỏ khi hover */
+  }
+  
+  button:hover {
+    background-color: #218c50; /* Màu nền khi hover */
+  }
+  

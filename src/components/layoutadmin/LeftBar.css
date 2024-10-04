@@ -1,0 +1,35 @@
+.left-bar {
+  width: 200px; /* Chiều rộng của LeftBar */
+  background-color: #06433a; /* Màu nền */
+  padding: 20px; /* Khoảng cách bên trong */
+  height: 100vh; /* Chiều cao 100% của viewport */
+  position: fixed; /* Giữ thanh bên cố định */
+ 
+}
+.logo{
+  padding-left: 40px;
+}
+.left-bar h2 {
+  margin-bottom: 20px; /* Khoảng cách dưới tiêu đề */
+}
+
+.menu {
+  display: flex;
+  flex-direction: column; /* Hiển thị các mục menu theo chiều dọc */
+}
+
+.menu div {
+  margin: 30px 20px; /* Khoảng cách giữa các mục menu */
+
+}
+
+.menu a {
+  font-size: 20px;
+  color: #ffffff; /* Màu chữ */
+  text-decoration: none; /* Bỏ gạch chân */
+}
+
+.menu a:hover {
+  text-decoration: none; /* Hiệu ứng hover */
+  color: aquamarine;
+}
